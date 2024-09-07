@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Рецепты</title>
+  <!-- стили из фреймворка -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+  <!-- иконки -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+</head>
+
+<body>
+  <!-- меню: название, пункты меню(рецепты),поиск-->
+  <header>
+    <nav>
+      <div class="nav-wrapper #536dfe indigo accent-2">
+        <a href="#" class="brand-logo center">Вкусландия</a>
+        <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+        <ul id="nav-mobile" class="left hide-on-med-and-down">
+          <li><a href="№">Главная</a></li>
+          <li><a href="№"><i class="material-icons left">search</i> Рецепты</a></li>
+          <li><a href="№">Топ рецептов</a></li>
+          <li><a href="№">Рецепт дня</a></li>
+        </ul>
+      </div>
+    </nav>
+    <ul class="sidenav" id="mobile-demo">
+      <li><a href="№">Главная</a></li>
+      <li><a href="№">Рецепты</a></li>
+      <li><a href="№">Топ рецептов</a></li>
+      <li><a href="№">Рецепт дня</a></li>
+    </ul>
+  </header>
+
+  <!-- хедер: заголовок, подзаголовок, форма для подписки на рассылку -->
+
+  <div class="parallax-container">
+    <!-- контент -->
+    <div class="container">
+      <div class="row">
+        <div class="col s6"></div>
+        <div class="col s6">
+          <h3>Сайт лучших рецептов</h3>
+          <p>подпишитесь на рассылку, чтобы получать топовые рецепты!</p>
+          <div class="row">
+            <form class="col s12">
+              <div class="row">
+                <div class="input-field col s12 m6">
+                  <i class="material-icons prefix white-text">account_circle</i>
+                  <input id="icon_prefix" type="text" class="validate">
+                  <label for="icon_prefix">Ваше имя</label>
+                </div>
+                <div class="input-field col s12 m6 white-text">
+                  <i class="material-icons prefix">mail</i>
+                  <input id="icon_telephone" type="tel" class="validate">
+                  <label for="icon_telephone">Почта</label>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="parallax"><img src="https://prime-star.ru/upload/iblock/96e/olioc8g7ew10kcb3gg3yv916xagxyrqq.jpg"></div>
+  </div>
+
+
+
+  <!--секция1: популярные рецепты -->
+  <container>
+    <div class="row " style="height: 20vh;"> 
+      <div class="col s12 m6 l4"  style="height: 100%;">
+        <div class="card blue-grey darken-1"  style="height: 100%;">
+          <div class="card-content white-text">
+            <span class="card-title">Рецепт цезаря</span>
+            <p style="height: 50px;">куриная грудка — 1 шт.;капуста пекинская — 1 шт.;
+
+              помидоры черри — 150–200 г;
+
+              сыр твёрдый (желательно пармезан) — 50–70 г;
+
+              хлеб белый — 3–4 ломтика;
+
+              соль — по вкусу;
+
+              масло оливковое — 6 ст. л. (для жарки);
+
+              перец чёрный молотый — 1 ч. л.;
+
+              чеснок — 4 зубчика;
+
+              майонез — 3–4 ст. л</p>
+          </div>
+          <div class="card-action">
+            <a href="#">Читать полностью рецепт</a>
+            <a href="#">Другие рецепты</a>
+          </div>
+        </div>
+      </div>
+
+
+
+      <div class="col s12 m6 l4" style="height: 100%;">
+        <div class="card blue-grey darken-1"  style="height: 100%;">
+          <div class="card-content white-text">
+            <span class="card-title">Рецепт пасты карбонары</span>
+            <p style="height: 50px;">200 г спагетти;
+
+              150 г бекона или ветчины;
+
+              150 мл сливок 30–33%;
+
+              3 желтка;
+
+              50 г сыра (в идеале — пармезана);
+
+              2–3 зубчика чеснока;
+
+              соль, перец;
+
+              растительное масло.</p>
+          </div>
+          <div class="card-action">
+            <a href="#">Читать полностью рецепт</a>
+            <a href="#">Другие рецепты</a>
+          </div>
+        </div>
+      </div>
+
+
+
+      <div class="col s12 m6 l4" style="height: 100%;">
+        <div class="card blue-grey darken-1"  style="height: 100%;">
+          <div class="card-content white-text">
+            <span class="card-title">Рецепт блинов</span>
+            <p> мука – 240 г;
+              пшеничный крахмал – 10 г;
+              соль – щепотка;
+              сахар – 10 г;
+              2 яйца;
+              молоко – 250 мл;
+              растительное масло – 20 г.</p>
+          </div>
+          <div class="card-action">
+            <a href="#">Читать полностью рецепт</a>
+            <a href="#">Другие рецепты</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </container>
+
+  <!--секция2: рецепт дня-->
+
+  <div class="row-center">
+    <div class="col s12 m7 ">
+      <div class="card">
+        <div class="card-image">
+          <img
+            src="https://avatars.mds.yandex.net/i?id=499a927484eb5936f4ec6af1c4fa40e5dcbf5838-5557812-images-thumbs&n=13">
+          <span class="card-title">Card Title</span>
+        </div>
+        <div class="card-content center">
+          <p>
+          <h5>Сегодня тот самый день,чтобы приготовить синабоны!</h5>
+          </p>
+        </div>
+        <div class="card-action center">
+          <a href="#">
+            <h5>Смотреть рецепт</h5>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- секция3: слайды рецептов -->
+  <div class="carousel">
+    <a class="carousel-item" href="#one!"><img
+        src="https://avatars.mds.yandex.net/i?id=7875124c736993f6455cb284d8e3ba4d_l-5013948-images-thumbs&n=13"></a>
+    <a class="carousel-item" href="#two!"><img
+        src="https://ixbt.online/live/images/original/17/17/35/2024/05/30/c6a3393c26.jpg"></a>
+    <a class="carousel-item" href="#three!"><img
+        src="https://pic.rutubelist.ru/video/5d/32/5d321c614cd8777dc39d0774aed495f0.jpg"></a>
+    <a class="carousel-item" href="#four!"><img
+        src="https://avatars.mds.yandex.net/i?id=40c36673143732d4c90c14c7864bbe31_l-5354310-images-thumbs&n=13"></a>
+    <a class="carousel-item" href="#five!"><img
+        src="https://avatars.mds.yandex.net/i?id=d4d4128a9fcf265c229365fe3ddfc467_l-12511705-images-thumbs&n=13"></a>
+  </div>
+
+  <!-- ? -->
+  <div class="row">
+    <div class="col s12">
+      <div class="row">
+        <div class="input-field col s12">
+          <i class="material-icons prefix">textsms</i>
+          <input type="text" id="autocomplete-input" class="autocomplete">
+          <label for="autocomplete-input">Autocomplete</label>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- футер: полезные ссылки (контакты), подпись-->
+
+  <footer class="page-footer #536dfe indigo accent-2">
+    <div class="container">
+      <div class="row">
+        <div class="col l6 s12">
+          <h5 class="white-text">Вкусландия</h5>
+          <p class="grey-text text-lighten-4">Будем ждать вас в наших соцсетях.
+            Также если есть вопросы обращайтесь.
+          </p>
+        </div>
+        <div class="col l4 offset-l2 s12">
+          <h5 class="white-text">Наши соцсети</h5>
+          <ul>
+            <li><a class="grey-text text-lighten-3" href="#!">+7(918)-313-31-33</a></li>
+            <li><a class="grey-text text-lighten-3" href="#!">Instagram</a></li>
+            <li><a class="grey-text text-lighten-3" href="#!">VK</a></li>
+            <li><a class="grey-text text-lighten-3" href="#!">TikTok</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="footer-copyright">
+      <div class="container">
+        © 2024 Вкусландия
+        <a class="grey-text text-lighten-4 right" href="#!">More Links</a>
+      </div>
+    </div>
+  </footer>
+
+
+
+
+
+
+
+  <!-- скрипты из фреймворка -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+  <script src="script.js"></script>
+</body>
+
+</html>
